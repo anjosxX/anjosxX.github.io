@@ -1,0 +1,93 @@
+#navbara {
+  /* id da navbar*/
+  background-color: #FFFFFF;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar {
+  background-color: #D5D8D7;
+}
+
+.nav {
+  background-color: #1b9aaa;
+  height: 09rem;
+  display: flex;
+  justify-content: center;
+}
+
+.inpt {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.inpt input {
+  background-color: #D5D8D7;
+}
+
+.input {
+  border-radius: 10px;
+  padding: 0 10px;
+  border: none;
+  width: 500px;
+  height: 40px;
+}
+
+
+.botao {
+  border-radius: 20px;
+  padding: 0 10px;
+  border: none;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.botao:hover {
+  background-color: #aaaaaa;
+}
+
+.classe {
+  text-decoration: none;
+  color: black;
+}
+
+.corpo2 {
+  display: flex;
+  background-color: #FFFF00;
+  height: 100%;
+  width: 200px;
+  justify-content: left;
+  font-size: 40px;
+
+}
+
+.corpo {
+  display: flex;
+  background-color: black;
+  width: auto;
+  color: black;
+}
+
+.linha {
+  background-color: #FFFF00;
+  height: 2px;
+  margin-top: 30px;
+  width: 30000px;
+}
+
+.imagens {
+  display: flex;
+}
+.img{
+  gap: 40px;
+}
